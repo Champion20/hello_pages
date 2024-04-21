@@ -1,0 +1,17 @@
+---
+title: "My second page"
+
+---
+
+```{r}
+if(!require(pacman)) install.packages(pacman)
+p_load(reactable, tidyverse, plotly)
+```
+```{r}
+reactable(iris)
+```
+
+```{r}
+plot(iris)
+```
+
